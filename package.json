@@ -1,0 +1,14 @@
+{
+  "name": "couchplay",
+  "version": "1.0.0",
+  "description": "Scrape the PSN Website for Couch Coop PS4 Games",
+  "main": "index.js",
+  "author": "Elder Henrique Souza",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.3",
+    "lodash": "^4.17.5",
+    "request": "^2.85.0"
+  }
+}

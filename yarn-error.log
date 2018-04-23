@@ -1,0 +1,36 @@
+Arguments: 
+  /home/ehs/.nvm/versions/node/v8.5.0/bin/node /home/ehs/.yarn/bin/yarn.js add express@latest
+
+PATH: 
+  /home/ehs/.bin:/usr/lib/dart/bin:/home/ehs/dev/flutter/bin:/home/ehs/.yarn/bin:/home/ehs/.nvm/versions/node/v8.5.0/bin:/home/ehs/.bin:/usr/lib/dart/bin:/home/ehs/dev/flutter/bin:/home/ehs/.yarn/bin:/home/ehs/.cargo/bin:/home/ehs/bin:/home/ehs/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ehs/dev/p4v-2017.2.1535556/bin:/home/ehs/dev/android-sdk-linux/platform-tools:/home/ehs/dev/android-sdk-linux/tools:/home/ehs/dev/android-sdk-linux/build-tools/26.0.2/:/home/ehs/dev/p4v-2017.2.1535556/bin:/home/ehs/dev/android-sdk-linux/platform-tools:/home/ehs/dev/android-sdk-linux/tools:/home/ehs/dev/android-sdk-linux/build-tools/26.0.2/
+
+Yarn version: 
+  1.3.2
+
+Node version: 
+  8.5.0
+
+Platform: 
+  linux x64
+
+npm manifest: 
+  {
+    "name": "couchplay",
+    "version": "1.0.0",
+    "description": "Scrape the PSN Website for Couch Coop PS4 Games",
+    "main": "index.js",
+    "author": "Elder Henrique Souza",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: getaddrinfo EAI_AGAIN registry.yarnpkg.com:443
+      at Object._errnoException (util.js:1026:11)
+      at errnoException (dns.js:58:15)
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:95:26)
